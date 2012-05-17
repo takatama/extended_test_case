@@ -10,7 +10,7 @@ Above your test case, use:
     App::import('Lib', 'ExtendedTestCase.ExtendedTestCase');
 
 Then extend your test case with `ExtendedTestCase` instead of `CakeTestCase` and
-define the `testController` variable in your test case as the controller you are
+define the `$testController` variable in your test case as the controller you are
 testing.
 
 For more information about utilizing mocks, etc. visit [here][1].
